@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+
+body {
+    background-image: url("images/mlk-inspirational-quote.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    border: black;
+    border-style: solid;
+    padding: 10px;
+    width: fit-content;
+    margin: auto;
+    background-color: rgba(255,255,255,0.4);
+}
+
+.font-ips {
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.centre {
+    text-align: center;
+}
+
+.left-image {
+    padding: 10px 10px 10px 0px;
+}
+
+.right-image {
+    padding: 10px 0px 10px 10px;
+}
+
+
+.red-text {
+    color: red
+}
+
+.box {
+    color:white;
+    font-size: 20px;
+    font-family: 'font-ips', sans-serif;
+    text-align: center;
+    padding:0px;
+    flex: 1;
+    border: solid;
+    border-width: 1px;
+}
+
+.box1 { background:#faa4f1;}
+.box2 { background:#ff57e9;}
+.box3 { background:#ff84e4;}
+.box4 { background:#ff8ab7;}
+
+.container {
+    display: flex;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.imgsize {
+    max-width: 800px;
+    max-height: 400px;
+}
+
+.img30 {
+    width: 30%;
+}
+
+
+
+a:hover {
+    background-color: rgb(236, 26, 26);
+}
+
+
+.fixed {
+    position: fixed;
+    bottom: 0;
+    border: black;
+    border-style: solid;
+    padding: 10px;
+    width: fit-content;
+    margin: auto;
+    background-color: rgba(255,255,255,0.8);
+}
